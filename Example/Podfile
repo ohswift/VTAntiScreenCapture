@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'VTAntiScreenCapture_Example' do
+  pod 'VTAntiScreenCapture', :path => '../'
+
+  target 'VTAntiScreenCapture_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
