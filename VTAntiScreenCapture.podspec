@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VTAntiScreenCapture'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of VTAntiScreenCapture.'
+  s.summary          = 'A simple iOS SDK for anti screen capture'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yuweishan@126.com/VTAntiScreenCapture'
+  s.homepage         = 'https://github.com/mightyme@qq.com/VTAntiScreenCapture'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yuweishan@126.com' => 'yuweishan627@pingan.com.cn' }
-  s.source           = { :git => 'https://github.com/yuweishan@126.com/VTAntiScreenCapture.git', :tag => s.version.to_s }
+  s.author           = { 'Vincent' => 'mightyme@qq.com' }
+  s.source           = { :git => 'https://github.com/mightyme@qq.com/VTAntiScreenCapture.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

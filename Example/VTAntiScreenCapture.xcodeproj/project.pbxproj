@@ -15,7 +15,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* VTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* VTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* VTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* VTViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +23,11 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B519F31821DA2226008C7F6B /* text.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B519F31621DA2226008C7F6B /* text.mp4 */; };
+		B519F31921DA2226008C7F6B /* SimpleDRMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B519F31721DA2226008C7F6B /* SimpleDRMVC.m */; };
+		B519F31C21DA2264008C7F6B /* VTDemoTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B519F31B21DA2264008C7F6B /* VTDemoTableVC.m */; };
+		B519F31F21DA2346008C7F6B /* VTSimplePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B519F31E21DA2346008C7F6B /* VTSimplePlayer.m */; };
+		B519F32F21DB0C2B008C7F6B /* EncodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B519F32E21DB0C2B008C7F6B /* EncodeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C18C4D37554D27CEF37EBC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2E96A21A8EDD1CD7A63226C2 /* VTAntiScreenCapture.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VTAntiScreenCapture.podspec; path = ../VTAntiScreenCapture.podspec; sourceTree = "<group>"; };
-		3C5CD6229265801AC1EF7A49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1C18C4D37554D27CEF37EBC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2E96A21A8EDD1CD7A63226C2 /* VTAntiScreenCapture.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VTAntiScreenCapture.podspec; path = ../VTAntiScreenCapture.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3C5CD6229265801AC1EF7A49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* VTAntiScreenCapture_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTAntiScreenCapture_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,8 +54,6 @@
 		6003F59B195388D20070C39A /* VTAntiScreenCapture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VTAntiScreenCapture-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* VTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* VTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* VTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* VTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* VTAntiScreenCapture_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VTAntiScreenCapture_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,6 +65,15 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4AB297A5A8C057C83A06D72 /* Pods-VTAntiScreenCapture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VTAntiScreenCapture_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VTAntiScreenCapture_Tests/Pods-VTAntiScreenCapture_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B519F31521DA2226008C7F6B /* SimpleDRMVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleDRMVC.h; sourceTree = "<group>"; };
+		B519F31621DA2226008C7F6B /* text.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = text.mp4; sourceTree = "<group>"; };
+		B519F31721DA2226008C7F6B /* SimpleDRMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleDRMVC.m; sourceTree = "<group>"; };
+		B519F31A21DA2264008C7F6B /* VTDemoTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDemoTableVC.h; sourceTree = "<group>"; };
+		B519F31B21DA2264008C7F6B /* VTDemoTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDemoTableVC.m; sourceTree = "<group>"; };
+		B519F31D21DA2346008C7F6B /* VTSimplePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTSimplePlayer.h; sourceTree = "<group>"; };
+		B519F31E21DA2346008C7F6B /* VTSimplePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTSimplePlayer.m; sourceTree = "<group>"; };
+		B519F32D21DB0C2B008C7F6B /* EncodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncodeVC.h; sourceTree = "<group>"; };
+		B519F32E21DB0C2B008C7F6B /* EncodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncodeVC.m; sourceTree = "<group>"; };
 		C360D7C6400C52561405A303 /* Pods_VTAntiScreenCapture_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VTAntiScreenCapture_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB169BF241381E4A7CF74EB /* Pods-VTAntiScreenCapture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VTAntiScreenCapture_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-VTAntiScreenCapture_Example/Pods-VTAntiScreenCapture_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E3777863D15BEADD3C31CF4D /* Pods_VTAntiScreenCapture_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VTAntiScreenCapture_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,11 +143,13 @@
 		6003F593195388D20070C39A /* Example for VTAntiScreenCapture */ = {
 			isa = PBXGroup;
 			children = (
+				B519F32C21DB0C16008C7F6B /* EncodeVC */,
+				B519F31421DA2226008C7F6B /* SimpleDRMVC */,
 				6003F59C195388D20070C39A /* VTAppDelegate.h */,
 				6003F59D195388D20070C39A /* VTAppDelegate.m */,
+				B519F31A21DA2264008C7F6B /* VTDemoTableVC.h */,
+				B519F31B21DA2264008C7F6B /* VTDemoTableVC.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* VTViewController.h */,
-				6003F5A6195388D20070C39A /* VTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -183,6 +196,27 @@
 				3C5CD6229265801AC1EF7A49 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B519F31421DA2226008C7F6B /* SimpleDRMVC */ = {
+			isa = PBXGroup;
+			children = (
+				B519F31621DA2226008C7F6B /* text.mp4 */,
+				B519F31521DA2226008C7F6B /* SimpleDRMVC.h */,
+				B519F31721DA2226008C7F6B /* SimpleDRMVC.m */,
+				B519F31D21DA2346008C7F6B /* VTSimplePlayer.h */,
+				B519F31E21DA2346008C7F6B /* VTSimplePlayer.m */,
+			);
+			path = SimpleDRMVC;
+			sourceTree = "<group>";
+		};
+		B519F32C21DB0C16008C7F6B /* EncodeVC */ = {
+			isa = PBXGroup;
+			children = (
+				B519F32D21DB0C2B008C7F6B /* EncodeVC.h */,
+				B519F32E21DB0C2B008C7F6B /* EncodeVC.m */,
+			);
+			path = EncodeVC;
 			sourceTree = "<group>";
 		};
 		D7D1DE4D7180B6B8AF359FFC /* Pods */ = {
@@ -247,6 +281,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "yuweishan@126.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 664M9NYFXA;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -279,6 +317,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				B519F31821DA2226008C7F6B /* text.mp4 in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,12 +386,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-VTAntiScreenCapture_Example/Pods-VTAntiScreenCapture_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
 				"${BUILT_PRODUCTS_DIR}/VTAntiScreenCapture/VTAntiScreenCapture.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VTAntiScreenCapture.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,8 +410,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B519F32F21DB0C2B008C7F6B /* EncodeVC.m in Sources */,
 				6003F59E195388D20070C39A /* VTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* VTViewController.m in Sources */,
+				B519F31921DA2226008C7F6B /* SimpleDRMVC.m in Sources */,
+				B519F31C21DA2264008C7F6B /* VTDemoTableVC.m in Sources */,
+				B519F31F21DA2346008C7F6B /* VTSimplePlayer.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,12 +543,16 @@
 			baseConfigurationReference = 70E35D6D10B70079BA206F40 /* Pods-VTAntiScreenCapture_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664M9NYFXA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VTAntiScreenCapture/VTAntiScreenCapture-Prefix.pch";
 				INFOPLIST_FILE = "VTAntiScreenCapture/VTAntiScreenCapture-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -512,12 +562,16 @@
 			baseConfigurationReference = DEB169BF241381E4A7CF74EB /* Pods-VTAntiScreenCapture_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664M9NYFXA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VTAntiScreenCapture/VTAntiScreenCapture-Prefix.pch";
 				INFOPLIST_FILE = "VTAntiScreenCapture/VTAntiScreenCapture-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

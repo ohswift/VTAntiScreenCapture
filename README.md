@@ -1,6 +1,6 @@
 # VTAntiScreenCapture
 
-[![CI Status](https://img.shields.io/travis/yuweishan@126.com/VTAntiScreenCapture.svg?style=flat)](https://travis-ci.org/yuweishan@126.com/VTAntiScreenCapture)
+[![CI Status](https://img.shields.io/travis/mightyme@qq.com/VTAntiScreenCapture.svg?style=flat)](https://travis-ci.org/mightyme@qq.com/VTAntiScreenCapture)
 [![Version](https://img.shields.io/cocoapods/v/VTAntiScreenCapture.svg?style=flat)](https://cocoapods.org/pods/VTAntiScreenCapture)
 [![License](https://img.shields.io/cocoapods/l/VTAntiScreenCapture.svg?style=flat)](https://cocoapods.org/pods/VTAntiScreenCapture)
 [![Platform](https://img.shields.io/cocoapods/p/VTAntiScreenCapture.svg?style=flat)](https://cocoapods.org/pods/VTAntiScreenCapture)
@@ -22,7 +22,7 @@ pod 'VTAntiScreenCapture'
 
 ## Author
 
-yuweishan@126.com, yuweishan627@pingan.com.cn
+Vincent, mightyme@qq.com
 
 ## License
 

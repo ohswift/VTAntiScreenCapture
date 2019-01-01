@@ -2,8 +2,8 @@
 //  main.m
 //  VTAntiScreenCapture
 //
-//  Created by yuweishan@126.com on 12/31/2018.
-//  Copyright (c) 2018 yuweishan@126.com. All rights reserved.
+//  Created by mightyme@qq.com on 12/31/2018.
+//  Copyright (c) 2018 mightyme@qq.com. All rights reserved.
 //
 
 @import UIKit;
